@@ -1,0 +1,57 @@
+body{
+background-color: $light-grey;
+margin:0px;
+padding:0px;
+}
+#container{
+  position:relative;
+padding:20px 10px;
+
+  
+}
+
+h1{
+  font-family: $helvetica;
+  color: $dark-grey;
+}
+
+ul{
+  margin:0px;
+  padding:0px;
+  border:0px;
+  list-style-type: none;
+  height:30px
+
+
+}
+ul li{
+  
+ float:left;
+ display:list-item;   
+   
+
+}
+ul li a{
+  
+  text-decoration:none;
+  color:#fff;
+  font-family:Arial;
+  transition:all 0.4s ease-in-out;
+  background-color: $dark-grey;
+  padding:12px;
+}
+ul li a:hover{
+  
+  text-decoration:none;
+  color:#fff;
+  font-family:arial;
+  background-color: $worm;
+  padding:12px 12px 30px 12px;
+   
+  
+}
+ul li a.active{
+ padding:12px 12px 30px 12px; 
+ background-color: $worm;
+  
+}
